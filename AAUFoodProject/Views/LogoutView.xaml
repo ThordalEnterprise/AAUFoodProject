@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             xmlns:helpers="clr-namespace:DemoApp.Helpers"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="True"
+             xmlns:vm="clr-namespace:AAUFoodProject.ViewModels"
+             x:Class="AAUFoodProject.Views.LogoutView"
+             Visual="Material">
+
+    <ContentPage.BindingContext>
+        <vm:LogoutViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+       <Grid BackgroundColor="#1975d2">
+           <Grid.RowDefinitions>
+               <RowDefinition Height="100" />
+               <RowDefinition Height="*" />
+           </Grid.RowDefinitions>
+           <ImageButton Source="leftarrow.png"
+                        Grid.Row="0"
+                        HorizontalOptions="Start"
+                        Aspect="AspectFit"
+                        BackgroundColor="Transparent"
+                        VerticalOptions="Start"
+                        Margin="10,30"
+                        Clicked="back_button" />
+            <Label Text="Logout"
+                   FontSize="40"
+                   FontFamily="CabinSketch"
+                   TextColor="White"
+                   Margin="0,30,0,0"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Start" />
+            <Label x:Name="LabelName"
+                   FontSize="Subtitle"
+                   Margin="20,0"
+                   TextColor="Red"
+                   HorizontalOptions="Center"
+                   VerticalOptions="End" />
+           <pancake:PancakeView BackgroundColor="GhostWhite"
+                                CornerRadius="60,60,0,0"
+                                Grid.Row="1">
+               <StackLayout HorizontalOptions="Center"
+                            VerticalOptions="Center">
+                   <Image HeightRequest="200" WidthRequest="350" Source="aaulogo.png"></Image>
+                   <StackLayout IsVisible="{Binding IsCartExists}">
+                       <Label Text="Cart, is not empty!"
+                              TextColor="Blue" />
+                       <Label Text="{Binding UserCartItemsCount,
+                           StringFormat='Your Cart Contains {0} items'}"
+                              TextColor="Black"/>
+                   </StackLayout>
+                   <StackLayout>
+
+                       <Label Text="Are you sure you want to logout ?"
+                              TextColor="White" />
+
+                       <StackLayout Orientation="Horizontal"
+                                    Spacing="10">
+
+                           <Button Text="Yes, Logout"
+                                   HorizontalOptions="Center"
+                                   BackgroundColor="red"
+                                   CornerRadius="20"
+                                   Command="{Binding LogoutCommand}" />
+
+                           <Button Text="No, Go To Cart"
+                                   HorizontalOptions="Center"
+                                   CornerRadius="20"
+                                   BackgroundColor="Green"
+                                   Command="{Binding GotoCartCommand}" />
+
+                       </StackLayout>
+                   </StackLayout>
+               </StackLayout>
+           </pancake:PancakeView>
+       </Grid>
+    </ContentPage.Content>
+</ContentPage>

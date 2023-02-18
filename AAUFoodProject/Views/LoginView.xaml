@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:AAUFoodProject.ViewModels"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="False"
+             x:Class="AAUFoodProject.Views.LoginView"
+             Visual="Material">
+
+
+    <ContentPage.BindingContext>
+        <vm:LoginViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid>
+            <Grid Padding="10" VerticalOptions="Center" Opacity="0.4">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <StackLayout Grid.Row="0" VerticalOptions="Center">
+
+                    <Label Text="AAU Food"
+                           TextColor="#1975d2"
+                           Margin="0,0,0,10"
+                           FontAttributes="Bold"
+                           FontSize="60"
+                           HorizontalOptions="Center" />
+                    <Image Margin="0,0,0,25"
+                           HeightRequest="125"
+                           WidthRequest="275"
+                           Source="aaulogo.png">
+
+                    </Image>
+    
+
+
+                </StackLayout>
+                
+                <StackLayout Grid.Row="1"
+                             Spacing="10">
+                    <Frame CornerRadius="20">
+                        <StackLayout Orientation="Horizontal">
+
+                            <Entry Placeholder="Enter Username"
+                                       Text="{Binding Username}"
+                                       x:Name="EntryUsername"
+                                       TextColor="Black"
+                                       HorizontalOptions="FillAndExpand">
+                            </Entry>
+
+                        </StackLayout>
+                    </Frame>
+                    <Frame CornerRadius="20"
+                          >
+
+                        <StackLayout Orientation="Horizontal" >
+
+                            <Entry Placeholder="Enter Password"
+                                       Text="{Binding Password}"
+                                       x:Name="EntryPassword"
+                                       IsPassword="True"
+                                       TextColor="Black"
+                                       HorizontalOptions="FillAndExpand">
+                            </Entry>
+
+                        </StackLayout>
+
+                    </Frame>
+
+                    </StackLayout>
+
+                <StackLayout Grid.Row="2">
+
+                    <Button Text="Student Login"
+                            BackgroundColor="Purple"
+                            TextColor="White"
+                            WidthRequest="150"
+                            HeightRequest="50"
+                            CornerRadius="20"
+                            Command="{Binding LoginCommand}"
+                            IsEnabled="True">
+                    </Button>
+
+                         <Button Text="Student Register"
+                            BackgroundColor="OrangeRed"
+                            TextColor="White"
+                            WidthRequest="150"
+                            HeightRequest="50"
+                            CornerRadius="20"
+                            Command="{Binding RegisterCommand}" >
+                    </Button>
+
+                       <Button Text="Adminstrator Login"
+                            BackgroundColor="Blue"
+                            TextColor="White"
+                            WidthRequest="150"
+                            HeightRequest="50"
+                            CornerRadius="20"
+                            Command="{Binding AdminCommand}" >
+                    </Button>
+
+                       <Button Text="Staff Login"
+                            BackgroundColor="DarkGreen"
+                            TextColor="White"
+                            WidthRequest="150"
+                            HeightRequest="50"
+                            CornerRadius="20"
+                            Command="{Binding StaffCommand}" >
+                    </Button>
+                </StackLayout>
+
+
+
+ 
+
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

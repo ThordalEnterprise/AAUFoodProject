@@ -1,0 +1,50 @@
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/bin/Debug/netstandard2.0/AAUFoodProject.deps.json
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/bin/Debug/netstandard2.0/AAUFoodProject.dll
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/bin/Debug/netstandard2.0/ref/AAUFoodProject.dll
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/bin/Debug/netstandard2.0/AAUFoodProject.pdb
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/Views/CartView.xaml.g.cs
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/Views/CategoryView.xaml.g.cs
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/Views/LoginView.xaml.g.cs
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/Views/LogoutView.xaml.g.cs
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/Views/OrdersHistoryView.xaml.g.cs
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/Views/OrdersView.xaml.g.cs
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/Views/ProductDetailsView.xaml.g.cs
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/Views/ProductsView.xaml.g.cs
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/Views/SearchResultsView.xaml.g.cs
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/Views/SettingsPage.xaml.g.cs
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/Views/StaffManagePage.xaml.g.cs
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/AAUFoodProject.AssemblyInfoInputs.cache
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/AAUFoodProject.AssemblyInfo.cs
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/AAUFoodProject.csproj.CoreCompileInputs.cache
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/AAUFoodProject.dll
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/ref/AAUFoodProject.dll
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/AAUFoodProject.pdb
+/Users/Jacob/Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/AAUFoodProject.csprojAssemblyReference.cache
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/bin/Debug/netstandard2.0/AAUFoodProject.deps.json
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/bin/Debug/netstandard2.0/AAUFoodProject.dll
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/bin/Debug/netstandard2.0/ref/AAUFoodProject.dll
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/bin/Debug/netstandard2.0/AAUFoodProject.pdb
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/AAUFoodProject.csprojAssemblyReference.cache
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/Views/CartView.xaml.g.cs
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/Views/CategoryView.xaml.g.cs
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/Views/LoginView.xaml.g.cs
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/Views/LogoutView.xaml.g.cs
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/Views/OrdersHistoryView.xaml.g.cs
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/Views/OrdersView.xaml.g.cs
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/Views/ProductDetailsView.xaml.g.cs
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/Views/ProductsView.xaml.g.cs
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/Views/SearchResultsView.xaml.g.cs
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/Views/SettingsPage.xaml.g.cs
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/Views/StaffManagePage.xaml.g.cs
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/AAUFoodProject.AssemblyInfoInputs.cache
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/AAUFoodProject.AssemblyInfo.cs
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/AAUFoodProject.csproj.CoreCompileInputs.cache
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/AAUFoodProject.dll
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/ref/AAUFoodProject.dll
+/Users/Jacob/Projects/C# Projects/AAUFoodProject/AAUFoodProject/obj/Debug/netstandard2.0/AAUFoodProject.pdb

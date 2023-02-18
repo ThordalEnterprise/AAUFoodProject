@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="True"
+             x:Class="AAUFoodProject.Views.OrdersView"
+             BackgroundColor="#1975d2"
+             Visual="Material">
+
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Label Text="Order Confirmed"
+                   FontSize="40"
+                   Margin="0,20,0,0"
+                   TextColor="White"
+                   FontFamily="CabinSketch"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Start" />
+            <Label x:Name="LabelName"
+                   FontSize="Subtitle"
+                   Margin="20,0"
+                   TextColor="WhiteSmoke"
+                   HorizontalOptions="Center"
+                   VerticalOptions="End" />
+            <pancake:PancakeView
+                BackgroundColor="WhiteSmoke"
+                CornerRadius="60,60,0,0"
+                Grid.Row="1">
+                <StackLayout HorizontalOptions="Center"
+                             VerticalOptions="Center">
+                    <Image Margin="0,0,0,0"
+                           HeightRequest="175"
+                           WidthRequest="225"
+                           Source="aaulogo.png"/>
+                    <Label TextColor="Black" Text="Thanks for placing an order through us." />
+                    <Label TextColor="Black" Text="Please remember your Order ID for Tracking" />
+                    <Label x:Name="LabelOrderID"
+                           TextColor="Blue"
+                           FontSize="Subtitle" />
+                    <Button Text="View All Products"
+                            WidthRequest="200"
+                            Margin="0,20,0,0"
+                            BackgroundColor="#1975d2"
+                            HorizontalOptions="Center"
+                            CornerRadius="20"
+                            TextColor="White"
+                            Clicked="Button_Clicked" />
+                </StackLayout>
+            </pancake:PancakeView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

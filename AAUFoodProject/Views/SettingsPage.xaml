@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AAUFoodProject.Views.SettingsPage"
+             Title="Administrator">
+
+    <ContentPage.Content>
+
+        <StackLayout>
+
+            <Label Text="Database Tools"
+                   Background="White"
+                   TextColor="Black"
+                   FontSize="34"
+                   HorizontalTextAlignment="Center"></Label>
+
+            <Label Text="Create"
+                   Background="Black"
+                   TextColor="White"
+                   FontSize="24"
+                   HorizontalTextAlignment="Center"></Label>
+
+            <Button Text="Create SQL Cart"
+                    x:Name="ButtonCart"
+                    Clicked="ButtonCart_Clicked" />
+
+            <Label Text="Read"
+                   Background="Black"
+                   TextColor="White"
+                   FontSize="24"
+                   HorizontalTextAlignment="Center"></Label>
+
+            <Button Text="Read Firebase Categories"
+                    x:Name="RBButtonCategories"
+                    Clicked="RDButtonCategories_Clicked" />
+
+            <Label Text="Update"
+                   Background="Black"
+                   TextColor="White"
+                   FontSize="24"
+                   HorizontalTextAlignment="Center"></Label>
+
+            <Button Text="Update Firebase Categories"
+                    x:Name="ButtonCategories"
+                    Clicked="UpdateButtonCategories_Clicked" />
+
+            <Button Text="Update Firebase Products"
+                    x:Name="ButtonProducts"
+                    Clicked="UpadteButtonProducts_Clicked" />
+
+            <Button Text="Update Admin User"
+                    x:Name="UserCodeMerge"
+                    Clicked="updateButtonAdmin_user_Clicked" />
+
+            <Button Text="Update Staff User"
+                    x:Name="StaffCodeMerge"
+                    Clicked="UpdateButtonStaff_user_Clicked" />
+
+           <Label Text="Delete"
+                   Background="Black"
+                   TextColor="White"
+                   FontSize="24"
+                   HorizontalTextAlignment="Center"></Label>
+
+            <Button Text="Delete Staff User"
+                    x:Name="StxaffCodeMerge"
+                    Clicked="DeleteButtonStaff_user_Clicked" />
+
+            <Button Text="Delete Firebase Categories"
+                    x:Name="ButxtonCategories"
+                    Clicked="DeleteButtonCategories_Clicked" />
+
+            <Button Text="Delete Firebase Products"
+                    x:Name="ButtxonProducts"
+                    Clicked="DeleteButtonProducts_Clicked" />
+
+            <Button Text="Delete Admin User"
+                    x:Name="UserxCodeMerge"
+                    Clicked="DeleteButtonAdmin_user_Clicked" />
+    
+                  
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
